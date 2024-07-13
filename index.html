@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Clappr</title>
+    <!-- Incluir Clappr desde CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clappr/dist/clappr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/clappr/dist/clappr.min.js"></script>
+</head>
+<body>
+    <div id="player"></div>
+<!-- 
+    <script>
+        // Configuración del reproductor
+        var playerElement = document.getElementById('player');
+        var player = new Clappr.Player({
+            source: 'https://14.tiofutbol.com:443/lb/tycsports/index.m3u8?token=602b505f6fc77316a37ec8ca5425bc48e074f77c-080c1b2abd105af61c11104d6d646fca-1720843794-1720832994&remote=186.57.203.18', // URL del video a reproducir
+            parentId: '#player', // ID del elemento donde se insertará el reproductor
+            width: '100%', // Ancho del reproductor
+            height: '360px', // Altura del reproductor
+            autoPlay: false, // Reproducción automática
+            mute: false, // Sin sonido
+            plugins: [], // Plugins adicionales (opcional)
+            poster: 'https://path.to/your/poster.jpg' // Imagen de portada del video (opcional)
+        });
+    </script> -->
+    <script>
+        // Configuración del reproductor
+        var playerElement = document.getElementById('player');
+        var player = new Clappr.Player({
+            source: 'https://24.tiofutbol.com:443/lb/dsports/index.m3u8?token=aab1e258ba3c5b745401f2185abdddd8c562f6c0-7a17653553584494bbb915b5dfe2fa2f-1720848875-1720838075&remote=186.57.203.184', // URL del video a reproducir
+            parentId: '#player', // ID del elemento donde se insertará el reproductor
+            width: '100%', // Ancho del reproductor
+            height: '360px', // Altura del reproductor
+            autoPlay: false, // Reproducción automática
+            mute: false, // Sin sonido
+            plugins: [], // Plugins adicionales (opcional)
+            poster: 'https://path.to/your/poster.jpg' // Imagen de portada del video (opcional)
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- "https://24.tiofutbol.com:443/lb/dsports/index.m3u8?token=aab1e258ba3c5b745401f2185abdddd8c562f6c0-7a17653553584494bbb915b5dfe2fa2f-1720848875-1720838075&remote=186.57.203.184" -->
